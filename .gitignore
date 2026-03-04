@@ -1,0 +1,92 @@
+# ===============================
+# Unreal Engine
+# ===============================
+
+# Build files
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# VS / Rider / IDE
+.vs/
+.vscode/
+.idea/
+
+# Visual Studio
+*.VC.db
+*.VC.opendb
+*.sdf
+*.opensdf
+*.suo
+*.user
+*.userprefs
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.VC.db
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# Mac
+.DS_Store
+
+# Linux
+*.swp
+
+# Logs
+*.log
+
+# Crash reports
+*.dmp
+
+# Shader caches
+*.ushadercache
+*.ushaderprecache
+
+# Derived Data Cache
+Engine/DerivedDataCache/*
+**/DerivedDataCache/*
+
+# Compiled files
+*.dll
+*.exe
+*.obj
+*.o
+*.pdb
+*.app
+
+# Temporary files
+*.tmp
+*.temp
+
+# Unreal auto-generated project files
+*.sln
+
+# Unreal Build Tool
+*.Target.cs.old
+*.Build.cs.old
+
+# Backup files
+*.bak
+
+# Rider
+.idea/
+
+# Visual Studio Code workspace settings
+.vscode/*
+
+# Ignore packaged builds
+Windows/
+Linux/
+Mac/
+Android/
+IOS/
+
+# Ignore local config overrides
+Saved/Config/WindowsEditor/
+Saved/Config/LinuxEditor/
+Saved/Config/MacEditor/
