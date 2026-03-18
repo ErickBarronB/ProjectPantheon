@@ -90,3 +90,8 @@ IOS/
 Saved/Config/WindowsEditor/
 Saved/Config/LinuxEditor/
 Saved/Config/MacEditor/
+
+# Allow plugin binaries
+!Plugins/*/Binaries/**/*.dll
+!Plugins/*/Binaries/**/*.exe
+!Plugins/*/Binaries/**/*.pdb
